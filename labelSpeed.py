@@ -2,9 +2,9 @@ import cv2
 import numpy as np
 import pytesseract
 
-startX = 129
+startX = 125
 startY = 843
-endX = 161
+endX = 173
 endY = 869
 
 img = cv2.imread("./temp.png", 0)
