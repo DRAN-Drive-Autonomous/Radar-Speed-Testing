@@ -11,7 +11,7 @@ img = cv2.imread("./temp.png", 0)
 img = img[startY:endY, startX:endX]
 cv2.imwrite("./speed.png", img)
 
-img = cv2.resize(img, (256, 256))
+img = cv2.resize(img, (128, 128))
 for j, y in enumerate(img):
     for i, x in enumerate(y):
         if x > 150:
